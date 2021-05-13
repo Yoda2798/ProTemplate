@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>UnimportantInfo</groupId>
+    <groupId>yodasmod</groupId>
 
-    <artifactId>TheTodo</artifactId>
-    <version>0.0.1</version>
-    <name>The Todo</name>
+    <artifactId>YodasMod</artifactId>
+    <version>0.1.0</version>
+    <name>Yoda's Mod</name>
     <description>TODO: Change this description</description>
     <!-- Change the above for mod information. -->
 
@@ -14,10 +14,11 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <SlayTheSpire.version>12-22-2020</SlayTheSpire.version>
         <ModTheSpire.version>3.18.2</ModTheSpire.version>
-        <ModID>todomod</ModID>
+        <ModID>yodasmod</ModID>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!--CHANGE THIS TO YOUR STEAM INSTALLATION-->
-        <Steam.path>C:/Program Files (x86)/Steam/steamapps/</Steam.path>
+        <Steam.path>S:\SteamLibrary\steamapps</Steam.path>
 
     </properties>
 
