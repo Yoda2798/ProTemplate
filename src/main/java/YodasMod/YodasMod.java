@@ -10,6 +10,8 @@ import com.badlogic.gdx.math.MathUtils;
 import com.evacipated.cardcrawl.mod.stslib.Keyword;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.AbstractCard.CardColor;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.localization.CharacterStrings;
 import com.megacrit.cardcrawl.localization.PowerStrings;
@@ -99,10 +101,27 @@ public class YodasMod implements
         new AutoAdd(modID)
                 .packageFilter(AbstractEasyRelic.class)
                 .any(AbstractEasyRelic.class, (info, relic) -> {
+
                     if (relic.color == null) {
                         BaseMod.addRelic(relic, RelicType.SHARED);
                     } else {
-                        BaseMod.addRelicToCustomPool(relic, relic.color);
+                        switch (relic.color) {
+                            case RED:
+                                BaseMod.addRelic(relic, RelicType.RED);
+                                break;
+                            case GREEN:
+                                BaseMod.addRelic(relic, RelicType.GREEN);
+                                break;
+                            case BLUE:
+                                BaseMod.addRelic(relic, RelicType.BLUE);
+                                break;
+                            case PURPLE:
+                                BaseMod.addRelic(relic, RelicType.PURPLE);
+                                break;
+                            default:
+                                BaseMod.addRelicToCustomPool(relic, relic.color);
+                                break;
+                        }
                     }
                     if (!info.seen) {
                         UnlockTracker.markRelicAsSeen(relic.relicId);

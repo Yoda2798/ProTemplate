@@ -5,5 +5,12 @@
     "DESCRIPTIONS": [
       "Has no effect."
     ]
+  },
+  "${ModID}:BrassKnuckles": {
+    "NAME": "Brass Knuckles",
+    "FLAVOR": "Made from Copperclad and Zincclad.",
+    "DESCRIPTIONS": [
+      "Whenever you apply #yVulnerable, apply 1 additional #yVulnerable."
+    ]
   }
 }
