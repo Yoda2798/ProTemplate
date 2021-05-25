@@ -6,18 +6,25 @@
       "Has no effect."
     ]
   },
-  "${ModID}:BrassKnuckles": {
-    "NAME": "Brass Knuckles",
-    "FLAVOR": "Made from Copperclad and Zincclad.",
-    "DESCRIPTIONS": [
-      "Whenever you apply #yVulnerable, apply 1 additional #yVulnerable."
-    ]
-  },
   "${ModID}:AchillesHeel": {
     "NAME": "Achilles' Heel",
     "FLAVOR": "The secret behind Achilles' great feets!",
     "DESCRIPTIONS": [
-      "Whenever you apply #yWeak, apply 1 additional #yWeak."
+      "Whenever you apply #yWeak, apply an additional #b1 #yWeak."
+    ]
+  },
+  "${ModID}:BrassKnuckles": {
+    "NAME": "Brass Knuckles",
+    "FLAVOR": "Made from Copperclad and Zincclad.",
+    "DESCRIPTIONS": [
+      "Whenever you apply #yVulnerable, apply an additional #b1 #yVulnerable."
+    ]
+  },
+  "${ModID}:PlatinumChip": {
+    "NAME": "Platinum Chip",
+    "FLAVOR": "The House Always Wins.",
+    "DESCRIPTIONS": [
+      "Start each combat with #b3 #yFocus."
     ]
   }
 }
