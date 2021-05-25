@@ -33,7 +33,7 @@ public class YodasMod implements
         EditKeywordsSubscriber,
         EditCharactersSubscriber {
 
-    public static final String modID = "yodasmod"; //TODO: Change this.
+    public static final String modID = "yodasmod";
 
     public static String makeID(String idText) {
         return modID + ":" + idText;
