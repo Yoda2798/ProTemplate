@@ -3,7 +3,6 @@ package YodasMod.patches;
 import com.evacipated.cardcrawl.modthespire.lib.*;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -26,9 +25,9 @@ import java.lang.reflect.Field;
             AbstractGameAction.AttackEffect.class
         }
 )
-public class BrassKnucklesPatch {
+public class AdditionalDebuffStackPatch {
 
-    private static final Logger logger = LogManager.getLogger(BrassKnucklesPatch.class.getName());
+    private static final Logger logger = LogManager.getLogger(AdditionalDebuffStackPatch.class.getName());
 
     @SpireInsertPatch(
             locator = Locator.class,
@@ -46,6 +45,18 @@ public class BrassKnucklesPatch {
                 f.set(__instance, newThing);
             } catch (NoSuchFieldException | IllegalAccessException | SecurityException e) {
                 logger.info("Error applying Brass Knuckles");
+            }
+            ++__instance.amount;
+        } else if (AbstractDungeon.player.hasRelic("yodasmod:AchillesHeel") && source != null && source.isPlayer && target != source && powerToApply.ID.equals("Weakened")) {
+            AbstractDungeon.player.getRelic("yodasmod:AchillesHeel").flash();
+            try {
+                Field f = ApplyPowerAction.class.getDeclaredField("powerToApply");
+                f.setAccessible(true);
+                AbstractPower newThing = powerToApply;
+                ++newThing.amount;
+                f.set(__instance, newThing);
+            } catch (NoSuchFieldException | IllegalAccessException | SecurityException e) {
+                logger.info("Error applying Achilles' Heel");
             }
             ++__instance.amount;
         }

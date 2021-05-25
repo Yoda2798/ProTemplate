@@ -12,5 +12,12 @@
     "DESCRIPTIONS": [
       "Whenever you apply #yVulnerable, apply 1 additional #yVulnerable."
     ]
+  },
+  "${ModID}:AchillesHeel": {
+    "NAME": "Achilles' Heel",
+    "FLAVOR": "The secret behind Achilles' great feets!",
+    "DESCRIPTIONS": [
+      "Whenever you apply #yWeak, apply 1 additional #yWeak."
+    ]
   }
 }
