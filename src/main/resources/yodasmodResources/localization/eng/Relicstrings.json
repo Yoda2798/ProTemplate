@@ -33,5 +33,12 @@
     "DESCRIPTIONS": [
       "Start each combat with #b3 #yFocus."
     ]
+  },
+  "${ModID}:Propeller": {
+    "NAME": "Propeller",
+    "FLAVOR": "Don't stick your hand inside it.",
+    "DESCRIPTIONS": [
+      "At the start of your 4th turn, gain #b22 #yBlock."
+    ]
   }
 }
