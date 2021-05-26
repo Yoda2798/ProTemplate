@@ -41,6 +41,13 @@
       "At the start of your 4th turn, gain #b22 #yBlock."
     ]
   },
+  "${ModID}:ToolbeltOfPreparation": {
+    "NAME": "Toolbelt of Preparation",
+    "FLAVOR": "Has a tool for every situation!\n(If by \"tool\" you mean \"drawing cards\", and by \"situation\" you mean \"turn 2\".)",
+    "DESCRIPTIONS": [
+      "At the start of your 2nd turn, draw #b2 additional cards."
+    ]
+  },
   "${ModID}:WoodenShield": {
     "NAME": "Wooden Shield",
     "FLAVOR": "Blocks for less than you wood want.",
