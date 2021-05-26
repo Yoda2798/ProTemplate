@@ -40,5 +40,12 @@
     "DESCRIPTIONS": [
       "At the start of your 4th turn, gain #b22 #yBlock."
     ]
+  },
+  "${ModID}:WoodenShield": {
+    "NAME": "Wooden Shield",
+    "FLAVOR": "Blocks for less than you wood want.",
+    "DESCRIPTIONS": [
+      "At the end of your turn, gain #yBlock equal to current turn number."
+    ]
   }
 }

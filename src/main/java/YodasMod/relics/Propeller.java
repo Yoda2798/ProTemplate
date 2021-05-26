@@ -2,7 +2,6 @@ package YodasMod.relics;
 
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.actions.common.RelicAboveCreatureAction;
-import com.megacrit.cardcrawl.cards.AbstractCard.CardColor;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 import static YodasMod.YodasMod.makeID;
@@ -12,7 +11,7 @@ public class Propeller extends AbstractEasyRelic {
     private static final int TURN_ACTIVATION = 4;
 
     public Propeller() {
-        super(ID, RelicTier.UNCOMMON, LandingSound.FLAT);
+        super(ID, RelicTier.UNCOMMON, LandingSound.HEAVY);
     }
 
     public void atBattleStart() {
