@@ -27,6 +27,13 @@
       "Whenever you play a #ySkill, gain #b1 temporary #yStrength."
     ]
   },
+  "${ModID}:Dynamo": {
+    "NAME": "Dynamo",
+    "FLAVOR": "Don't try walking on water with it.",
+    "DESCRIPTIONS": [
+      "The first time you play a #b0 cost card each turn, gain [E] ."
+    ]
+  },
   "${ModID}:PlatinumChip": {
     "NAME": "Platinum Chip",
     "FLAVOR": "The House Always Wins.",

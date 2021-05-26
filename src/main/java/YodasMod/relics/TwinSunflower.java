@@ -1,9 +1,6 @@
 package YodasMod.relics;
 
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.monsters.AbstractMonster;
-
-import java.util.Iterator;
 
 import static YodasMod.YodasMod.makeID;
 
