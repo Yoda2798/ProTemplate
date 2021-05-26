@@ -42,6 +42,13 @@
       "Choose 2 Cards to Remove."
     ]
   },
+  "${ModID}:IceLolly": {
+    "NAME": "Ice Lolly",
+    "FLAVOR": "Melts quicker than Ice Cream.",
+    "DESCRIPTIONS": [
+      "If you have any [E] left at the end of your turn, gain #b1 [E] at the start of your next turn."
+    ]
+  },
   "${ModID}:PlatinumChip": {
     "NAME": "Platinum Chip",
     "FLAVOR": "The House Always Wins.",
