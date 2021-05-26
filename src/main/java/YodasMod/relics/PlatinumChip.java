@@ -2,6 +2,7 @@ package YodasMod.relics;
 
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.RelicAboveCreatureAction;
+import com.megacrit.cardcrawl.actions.defect.IncreaseMaxOrbAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.FocusPower;
@@ -18,6 +19,7 @@ public class PlatinumChip extends AbstractEasyRelic {
     public void atBattleStart() {
         this.flash();
         this.addToTop(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new FocusPower(AbstractDungeon.player, 3), 1));
+        this.addToBot(new IncreaseMaxOrbAction(1));
         this.addToTop(new RelicAboveCreatureAction(AbstractDungeon.player, this));
     }
 }

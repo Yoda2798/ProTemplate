@@ -38,7 +38,7 @@
     "NAME": "Platinum Chip",
     "FLAVOR": "The House Always Wins.",
     "DESCRIPTIONS": [
-      "Start each combat with #b3 #yFocus."
+      "Start each combat with #b3 #yFocus and #b1 additional Orb slot."
     ]
   },
   "${ModID}:Propeller": {
