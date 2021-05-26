@@ -48,6 +48,13 @@
       "At the start of your 4th turn, gain #b22 #yBlock."
     ]
   },
+  "${ModID}:RoboticGremlinHorn": {
+    "NAME": "Robotic Gremlin Horn",
+    "FLAVOR": "Sent back from the year 2029 by the Corrupt Heart to slay you before you slay it.",
+    "DESCRIPTIONS": [
+      "Whenever an enemy dies, gain #b1 Orb slot and channel a random Orb."
+    ]
+  },
   "${ModID}:SlaversWhip": {
     "NAME": "Slaver's Whip",
     "FLAVOR": "Not dissimilar to the tool used by a certain famous archaeologist...",
