@@ -1,6 +1,7 @@
 package YodasMod.patches;
 
 import YodasMod.relics.SlaversWhip;
+import YodasMod.relics.TwinSunflower;
 import com.evacipated.cardcrawl.modthespire.lib.*;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.EnergyManager;
@@ -24,6 +25,9 @@ public class beforeEnergyPrepPatch {
     {
         if (AbstractDungeon.player.hasRelic("yodasmod:SlaversWhip")) {
             ((SlaversWhip)AbstractDungeon.player.getRelic("yodasmod:SlaversWhip")).beforeEnergyPrep();
+        }
+        if (AbstractDungeon.player.hasRelic("yodasmod:TwinSunflower")) {
+            ((TwinSunflower)AbstractDungeon.player.getRelic("yodasmod:TwinSunflower")).beforeEnergyPrep();
         }
     }
 

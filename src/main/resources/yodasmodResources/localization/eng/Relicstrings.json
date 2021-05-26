@@ -55,6 +55,13 @@
       "At the start of your 2nd turn, draw #b2 additional cards."
     ]
   },
+  "${ModID}:TwinSunflower": {
+    "NAME": "Twin Sunflower",
+    "FLAVOR": "\"My sunflowers have doubled since the last time we met.\"\n- Dave Skywalker",
+    "DESCRIPTIONS": [
+      "In every 2nd combat, gain [E] at the start of your turn."
+    ]
+  },
   "${ModID}:WoodenShield": {
     "NAME": "Wooden Shield",
     "FLAVOR": "Blocks for less than you wood want.",

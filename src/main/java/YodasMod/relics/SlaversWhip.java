@@ -32,7 +32,7 @@ public class SlaversWhip extends AbstractEasyRelic {
             ++AbstractDungeon.player.energy.energyMaster;
         }
 
-    }// 49
+    }
 
     public void onVictory() {
         if (this.pulse) {
