@@ -41,6 +41,13 @@
       "At the start of your 4th turn, gain #b22 #yBlock."
     ]
   },
+  "${ModID}:SlaversWhip": {
+    "NAME": "Slaver's Whip",
+    "FLAVOR": "Not dissimilar to the tool used by a certain famous archaeologist...",
+    "DESCRIPTIONS": [
+      "During regular enemy combats (non-Boss or Elite), gain [E] [E] at the start of your turn."
+    ]
+  },
   "${ModID}:ToolbeltOfPreparation": {
     "NAME": "Toolbelt of Preparation",
     "FLAVOR": "Has a tool for every situation!\n(If by \"tool\" you mean \"drawing cards\", and by \"situation\" you mean \"turn 2\".)",
