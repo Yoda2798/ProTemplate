@@ -34,6 +34,14 @@
       "The first time you play a #b0 cost card each turn, gain [E] ."
     ]
   },
+  "${ModID}:EmptyKennel": {
+    "NAME": "Empty Kennel",
+    "FLAVOR": "Like Empty Cage, but classier.",
+    "DESCRIPTIONS": [
+      "Upon pickup, remove #b2 cards from your Deck.",
+      "Choose 2 Cards to Remove."
+    ]
+  },
   "${ModID}:PlatinumChip": {
     "NAME": "Platinum Chip",
     "FLAVOR": "The House Always Wins.",
