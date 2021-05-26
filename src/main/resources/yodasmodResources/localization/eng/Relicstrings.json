@@ -54,5 +54,12 @@
     "DESCRIPTIONS": [
       "At the end of your turn, gain #yBlock equal to current turn number."
     ]
+  },
+  "${ModID}:YabYum": {
+    "NAME": "Yab-Yum",
+    "FLAVOR": "Putting the \"man\" in \"Mantra\".",
+    "DESCRIPTIONS": [
+      "#yMantra is preserved across fights."
+    ]
   }
 }
