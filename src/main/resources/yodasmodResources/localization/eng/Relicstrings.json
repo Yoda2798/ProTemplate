@@ -84,6 +84,13 @@
       "During regular enemy combats (non-Boss or Elite), gain [E] [E] at the start of your turn."
     ]
   },
+  "${ModID}:TargetingComputer": {
+    "NAME": "Targeting Computer",
+    "FLAVOR": "Right click to turn on/off.",
+    "DESCRIPTIONS": [
+      "Whenever an #yAttack deals unblocked damage, apply #b1 #yLock-On."
+    ]
+  },
   "${ModID}:ToolbeltOfPreparation": {
     "NAME": "Toolbelt of Preparation",
     "FLAVOR": "Has a tool for every situation!\n(If by \"tool\" you mean \"drawing cards\", and by \"situation\" you mean \"turn 2\".)",
