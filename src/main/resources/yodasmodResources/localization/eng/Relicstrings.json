@@ -86,9 +86,10 @@
   },
   "${ModID}:TargetingComputer": {
     "NAME": "Targeting Computer",
-    "FLAVOR": "Right click to turn on/off.",
+    "FLAVOR": "Right click to turn off/on.",
     "DESCRIPTIONS": [
-      "Whenever an #yAttack deals unblocked damage, apply #b1 #yLock-On."
+      "Whenever an #yAttack deals unblocked damage, apply #b1 #yLock-On.",
+      ", you switched off your targeting computer! What's wrong?"
     ]
   },
   "${ModID}:ToolbeltOfPreparation": {
