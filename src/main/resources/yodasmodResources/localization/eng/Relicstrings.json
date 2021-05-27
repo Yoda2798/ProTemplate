@@ -42,6 +42,13 @@
       "Choose 2 Cards to Remove."
     ]
   },
+  "${ModID}:FairlyOddParents": {
+    "NAME": "Fairly Odd Parents",
+    "FLAVOR": "Yup.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of each odd turn."
+    ]
+  },
   "${ModID}:IceLolly": {
     "NAME": "Ice Lolly",
     "FLAVOR": "Melts quicker than Ice Cream.",
