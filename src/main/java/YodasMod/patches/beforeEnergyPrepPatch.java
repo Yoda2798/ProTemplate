@@ -23,11 +23,11 @@ public class beforeEnergyPrepPatch {
     )
     public static void Insert()
     {
-        if (AbstractDungeon.player.hasRelic("yodasmod:SlaversWhip")) {
-            ((SlaversWhip)AbstractDungeon.player.getRelic("yodasmod:SlaversWhip")).beforeEnergyPrep();
+        if (AbstractDungeon.player.hasRelic(SlaversWhip.ID)) {
+            ((SlaversWhip)AbstractDungeon.player.getRelic(SlaversWhip.ID)).beforeEnergyPrep();
         }
-        if (AbstractDungeon.player.hasRelic("yodasmod:TwinSunflower")) {
-            ((TwinSunflower)AbstractDungeon.player.getRelic("yodasmod:TwinSunflower")).beforeEnergyPrep();
+        if (AbstractDungeon.player.hasRelic(TwinSunflower.ID)) {
+            ((TwinSunflower)AbstractDungeon.player.getRelic(TwinSunflower.ID)).beforeEnergyPrep();
         }
     }
 

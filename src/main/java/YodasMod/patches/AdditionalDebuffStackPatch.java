@@ -1,5 +1,7 @@
 package YodasMod.patches;
 
+import YodasMod.relics.AchillesHeel;
+import YodasMod.relics.BrassKnuckles;
 import com.evacipated.cardcrawl.modthespire.lib.*;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
@@ -35,8 +37,8 @@ public class AdditionalDebuffStackPatch {
     )
     public static void Insert(ApplyPowerAction __instance, AbstractCreature target, AbstractCreature source, AbstractPower powerToApply)
     {
-        if (AbstractDungeon.player.hasRelic("yodasmod:BrassKnuckles") && source != null && source.isPlayer && target != source && powerToApply.ID.equals("Vulnerable")) {
-            AbstractDungeon.player.getRelic("yodasmod:BrassKnuckles").flash();
+        if (AbstractDungeon.player.hasRelic(BrassKnuckles.ID) && source != null && source.isPlayer && target != source && powerToApply.ID.equals("Vulnerable")) {
+            AbstractDungeon.player.getRelic(BrassKnuckles.ID).flash();
             try {
                 Field f = ApplyPowerAction.class.getDeclaredField("powerToApply");
                 f.setAccessible(true);
@@ -47,8 +49,8 @@ public class AdditionalDebuffStackPatch {
                 logger.info("Error applying Brass Knuckles");
             }
             ++__instance.amount;
-        } else if (AbstractDungeon.player.hasRelic("yodasmod:AchillesHeel") && source != null && source.isPlayer && target != source && powerToApply.ID.equals("Weakened")) {
-            AbstractDungeon.player.getRelic("yodasmod:AchillesHeel").flash();
+        } else if (AbstractDungeon.player.hasRelic(AchillesHeel.ID) && source != null && source.isPlayer && target != source && powerToApply.ID.equals("Weakened")) {
+            AbstractDungeon.player.getRelic(AchillesHeel.ID).flash();
             try {
                 Field f = ApplyPowerAction.class.getDeclaredField("powerToApply");
                 f.setAccessible(true);
