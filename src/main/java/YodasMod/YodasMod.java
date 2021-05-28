@@ -1,8 +1,10 @@
 package YodasMod;
 
+import YodasMod.potions.AbstractEasyPotion;
 import YodasMod.potions.LiquidGold;
 import basemod.AutoAdd;
 import basemod.BaseMod;
+import basemod.abstracts.CustomPotion;
 import basemod.helpers.RelicType;
 import basemod.interfaces.*;
 import com.badlogic.gdx.Gdx;
@@ -88,11 +90,19 @@ public class YodasMod implements
     }
 
     public void receiveEditPotions() {
-        Color liquidColor = CardHelper.getColor(233,199,76);
-        Color hybridColor = null;
-        Color spotsColor = null;
 
-        BaseMod.addPotion(LiquidGold.class, liquidColor, hybridColor, spotsColor, LiquidGold.POTION_ID);
+        //BaseMod.addPotion(LiquidGold.class, LiquidGold.liquidColor, LiquidGold.hybridColor, LiquidGold.spotsColor, LiquidGold.POTION_ID);
+
+        new AutoAdd(modID)
+                .packageFilter(AbstractEasyPotion.class)
+                .any(AbstractEasyPotion.class, (info, potion) -> {
+
+                    if (potion.playerClass == null) {
+                        BaseMod.addPotion(potion.getClass(), potion.liquidColor, potion.hybridColor, potion.spotsColor, potion.POTION_ID);
+                    } else {
+                        BaseMod.addPotion(potion.getClass(), potion.liquidColor, potion.hybridColor, potion.spotsColor, potion.POTION_ID, potion.playerClass);
+                    }
+                });
     }
 
     @Override

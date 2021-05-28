@@ -2,5 +2,9 @@
   "${ModID}:LiquidGold": {
     "NAME": "Liquid Gold",
     "DESCRIPTIONS": ["Gain #b", " Gold."]
+  },
+  "${ModID}:PoisonFlask": {
+    "NAME": "Poison Flask",
+    "DESCRIPTIONS": ["Apply #b", " #yPoison to target enemy."]
   }
 }
