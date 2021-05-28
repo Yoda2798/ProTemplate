@@ -1,5 +1,6 @@
 package YodasMod;
 
+import YodasMod.potions.LiquidGold;
 import basemod.AutoAdd;
 import basemod.BaseMod;
 import basemod.helpers.RelicType;
@@ -10,12 +11,8 @@ import com.badlogic.gdx.math.MathUtils;
 import com.evacipated.cardcrawl.mod.stslib.Keyword;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
-import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.AbstractCard.CardColor;
-import com.megacrit.cardcrawl.localization.CardStrings;
-import com.megacrit.cardcrawl.localization.CharacterStrings;
-import com.megacrit.cardcrawl.localization.PowerStrings;
-import com.megacrit.cardcrawl.localization.RelicStrings;
+import com.megacrit.cardcrawl.helpers.CardHelper;
+import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 import YodasMod.cards.AbstractEasyCard;
 import YodasMod.cards.cardvars.SecondDamage;
@@ -90,10 +87,19 @@ public class YodasMod implements
         YodasMod thismod = new YodasMod();
     }
 
+    public void receiveEditPotions() {
+        Color liquidColor = CardHelper.getColor(233,199,76);
+        Color hybridColor = null;
+        Color spotsColor = null;
+
+        BaseMod.addPotion(LiquidGold.class, liquidColor, hybridColor, spotsColor, LiquidGold.POTION_ID);
+    }
+
     @Override
     public void receiveEditCharacters() {
         BaseMod.addCharacter(new YodaCharacter(YodaCharacter.characterStrings.NAMES[1], YodaCharacter.Enums.YODA_CHARACTER),
                 CHARSELECT_BUTTON, CHARSELECT_PORTRAIT, YodaCharacter.Enums.YODA_CHARACTER);
+        receiveEditPotions();
     }
 
     @Override
@@ -149,6 +155,8 @@ public class YodasMod implements
         BaseMod.loadCustomStringsFile(CharacterStrings.class, modID + "Resources/localization/eng/Charstrings.json");
 
         BaseMod.loadCustomStringsFile(PowerStrings.class, modID + "Resources/localization/eng/Powerstrings.json");
+
+        BaseMod.loadCustomStringsFile(PotionStrings.class, modID + "Resources/localization/eng/Potionstrings.json");
     }
 
     @Override

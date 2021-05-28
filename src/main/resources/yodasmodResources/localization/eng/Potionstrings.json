@@ -1,0 +1,6 @@
+{
+  "${ModID}:LiquidGold": {
+    "NAME": "Liquid Gold",
+    "DESCRIPTIONS": ["Gain #b", " Gold."]
+  }
+}
