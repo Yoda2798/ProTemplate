@@ -2,5 +2,9 @@
   "${ModID}:EnergyPower": {
     "NAME": "Super Energy Potion",
     "DESCRIPTIONS": ["Gain #b", " additional [E] at the start of your turn."]
+  },
+  "${ModID}:LoseFocusPower": {
+    "NAME": "Focus Down",
+    "DESCRIPTIONS": ["Lose #b", " #yFocus at the end of your turn."]
   }
 }

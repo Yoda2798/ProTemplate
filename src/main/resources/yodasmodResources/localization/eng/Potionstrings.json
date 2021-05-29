@@ -1,4 +1,8 @@
 {
+  "${ModID}:BatteryAcid": {
+    "NAME": "Battery Acid",
+    "DESCRIPTIONS": ["Gain #b", " #yFocus. At the end of your turn, lose #b", " #yFocus."]
+  },
   "${ModID}:BottledApotheosis": {
     "NAME": "Bottled Apotheosis",
     "DESCRIPTIONS": ["Upgrade ALL your cards for the rest of combat.", "Upgrade ALL your cards for the rest of combat #b", " times (if possible)."]
