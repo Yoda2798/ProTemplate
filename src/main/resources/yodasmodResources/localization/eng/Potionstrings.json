@@ -1,4 +1,8 @@
 {
+  "${ModID}:BottledApotheosis": {
+    "NAME": "Bottled Apotheosis",
+    "DESCRIPTIONS": ["Upgrade ALL your cards for the rest of combat.", "Upgrade ALL your cards for the rest of combat #b", " times (if possible)."]
+  },
   "${ModID}:LiquidGold": {
     "NAME": "Liquid Gold",
     "DESCRIPTIONS": ["Gain #b", " Gold."]
