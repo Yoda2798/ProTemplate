@@ -27,7 +27,7 @@ public class LiquidGold extends AbstractEasyPotion {
     public static final AbstractPlayer.PlayerClass playerClass = null;
 
     public LiquidGold() {
-        super(NAME, POTION_ID, PotionRarity.COMMON, PotionSize.JAR, PotionColor.NONE, playerClass);
+        super(NAME, POTION_ID, PotionRarity.COMMON, PotionSize.S, PotionColor.NONE, playerClass);
     }
 
     @Override
