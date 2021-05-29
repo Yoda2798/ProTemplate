@@ -157,9 +157,7 @@ public class YodasMod implements
                                 break;
                         }
                     }
-                    if (!info.seen) {
-                        UnlockTracker.markRelicAsSeen(relic.relicId);
-                    }
+                    UnlockTracker.markRelicAsSeen(relic.relicId);
                 });
     }
 
