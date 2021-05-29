@@ -5,6 +5,6 @@
   },
   "${ModID}:PoisonFlask": {
     "NAME": "Poison Flask",
-    "DESCRIPTIONS": ["Apply #b", " #yPoison to target enemy."]
+    "DESCRIPTIONS": ["Apply #b", " #yPoison."]
   }
 }

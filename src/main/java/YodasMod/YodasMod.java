@@ -2,6 +2,7 @@ package YodasMod;
 
 import YodasMod.potions.AbstractEasyPotion;
 import YodasMod.potions.LiquidGold;
+import YodasMod.potions.PoisonFlask;
 import basemod.AutoAdd;
 import basemod.BaseMod;
 import basemod.abstracts.CustomPotion;
@@ -20,8 +21,11 @@ import YodasMod.cards.AbstractEasyCard;
 import YodasMod.cards.cardvars.SecondDamage;
 import YodasMod.cards.cardvars.SecondMagicNumber;
 import YodasMod.relics.AbstractEasyRelic;
+import org.apache.logging.log4j.LogManager;
 
 import java.nio.charset.StandardCharsets;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 @SuppressWarnings({"unused", "WeakerAccess"})
 @SpireInitializer
@@ -37,6 +41,8 @@ public class YodasMod implements
     public static String makeID(String idText) {
         return modID + ":" + idText;
     }
+
+    //public static final Logger logger = LogManager.getLogger(YodasMod.class.getName());
 
     public static Color characterColor = new Color(MathUtils.random(), MathUtils.random(), MathUtils.random(), 1); // This should be changed eventually
 
@@ -91,18 +97,30 @@ public class YodasMod implements
 
     public void receiveEditPotions() {
 
-        //BaseMod.addPotion(LiquidGold.class, LiquidGold.liquidColor, LiquidGold.hybridColor, LiquidGold.spotsColor, LiquidGold.POTION_ID);
+        BaseMod.addPotion(LiquidGold.class, LiquidGold.liquidColor, LiquidGold.hybridColor, LiquidGold.spotsColor, LiquidGold.POTION_ID);
+        BaseMod.addPotion(PoisonFlask.class, PoisonFlask.liquidColor, PoisonFlask.hybridColor, PoisonFlask.spotsColor, PoisonFlask.POTION_ID, PoisonFlask.playerClass);
 
-        new AutoAdd(modID)
+        /*new AutoAdd(modID)
+                .packageFilter(AbstractEasyPotion.class)
+                .any(AbstractEasyPotion.class, (info, potion) -> {
+
+                    //System.out.println(potion);
+                    //System.out.println(potion.getClass());
+                    BaseMod.addPotion(potion.getClass(), potion.liquidColor, potion.hybridColor, potion.spotsColor, potion.POTION_ID);
+                });*/
+
+        /*new AutoAdd(modID)
                 .packageFilter(AbstractEasyPotion.class)
                 .any(AbstractEasyPotion.class, (info, potion) -> {
 
                     if (potion.playerClass == null) {
-                        BaseMod.addPotion(potion.getClass(), potion.liquidColor, potion.hybridColor, potion.spotsColor, potion.POTION_ID);
+                        class cccc = potion.getClass();
+
+                        BaseMod.addPotion(, potion.liquidColor, potion.hybridColor, potion.spotsColor, potion.POTION_ID);
                     } else {
                         BaseMod.addPotion(potion.getClass(), potion.liquidColor, potion.hybridColor, potion.spotsColor, potion.POTION_ID, potion.playerClass);
                     }
-                });
+                });*/
     }
 
     @Override

@@ -1,6 +1,5 @@
 package YodasMod.potions;
 
-import basemod.abstracts.CustomPotion;
 import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
@@ -10,7 +9,6 @@ import com.megacrit.cardcrawl.events.shrines.WeMeetAgain;
 import com.megacrit.cardcrawl.helpers.CardHelper;
 import com.megacrit.cardcrawl.helpers.PowerTip;
 import com.megacrit.cardcrawl.localization.PotionStrings;
-import com.megacrit.cardcrawl.potions.AbstractPotion;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.vfx.GainPennyEffect;
 
@@ -22,21 +20,17 @@ public class LiquidGold extends AbstractEasyPotion {
     public static final String NAME = potionStrings.NAME;
     public static final String[] DESCRIPTIONS = potionStrings.DESCRIPTIONS;
 
-
     public static final Color liquidColor = CardHelper.getColor(233,199,76);
     public static final Color hybridColor = null;
     public static final Color spotsColor = null;
 
-    //public static final something class = null;
+    public static final AbstractPlayer.PlayerClass playerClass = null;
 
     public LiquidGold() {
-        super(NAME, POTION_ID, PotionRarity.COMMON, PotionSize.JAR, PotionColor.NONE);
-        this.potency = getPotency();
-        this.description = DESCRIPTIONS[0] + this.potency + DESCRIPTIONS[1];
-        this.isThrown = false;
-        this.tips.add(new PowerTip(this.name, this.description));
+        super(NAME, POTION_ID, PotionRarity.COMMON, PotionSize.JAR, PotionColor.NONE, playerClass);
     }
 
+    @Override
     public void initializeData() {
         this.potency = this.getPotency();
         this.description = DESCRIPTIONS[0] + this.potency + DESCRIPTIONS[1];
@@ -49,15 +43,9 @@ public class LiquidGold extends AbstractEasyPotion {
         AbstractPlayer p = AbstractDungeon.player;
 
         p.gainGold(this.potency);
-
         for(int i = 0; i < this.potency; ++i) {
             AbstractDungeon.effectList.add(new GainPennyEffect(p, p.hb.cX, p.hb.cY, p.hb.cX, p.hb.cY, true));
         }
-    }
-
-    @Override
-    public AbstractPotion makeCopy() {
-        return new LiquidGold();
     }
 
     @Override
