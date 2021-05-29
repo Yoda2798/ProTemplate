@@ -14,5 +14,9 @@
   "${ModID}:SeekingPotion": {
     "NAME": "Seeking Potion",
     "DESCRIPTIONS": ["Put #b", " card from your draw pile into your hand.", " cards from your draw pile into your hand."]
+  },
+  "${ModID}:SuperEnergyPotion": {
+    "NAME": "Super Energy Potion",
+    "DESCRIPTIONS": ["Gain #b", " Energy. Gain #b", " Energy at the start of your turn for the rest of combat."]
   }
 }

@@ -1,1 +1,6 @@
-{}
+{
+  "${ModID}:EnergyPower": {
+    "NAME": "Super Energy Potion",
+    "DESCRIPTIONS": ["Gain #b", " additional [E] at the start of your turn."]
+  }
+}
