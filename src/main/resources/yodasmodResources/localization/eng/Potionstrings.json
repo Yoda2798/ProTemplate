@@ -6,5 +6,9 @@
   "${ModID}:PoisonFlask": {
     "NAME": "Poison Flask",
     "DESCRIPTIONS": ["Apply #b", " #yPoison."]
+  },
+  "${ModID}:SeekingPotion": {
+    "NAME": "Seeking Potion",
+    "DESCRIPTIONS": ["Put #b", " card from your draw pile into your hand.", " cards from your draw pile into your hand."]
   }
 }

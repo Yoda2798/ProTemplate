@@ -3,6 +3,7 @@ package YodasMod;
 import YodasMod.potions.AbstractEasyPotion;
 import YodasMod.potions.LiquidGold;
 import YodasMod.potions.PoisonFlask;
+import YodasMod.potions.SeekingPotion;
 import basemod.AutoAdd;
 import basemod.BaseMod;
 import basemod.abstracts.CustomPotion;
@@ -99,6 +100,7 @@ public class YodasMod implements
 
         BaseMod.addPotion(LiquidGold.class, LiquidGold.liquidColor, LiquidGold.hybridColor, LiquidGold.spotsColor, LiquidGold.POTION_ID);
         BaseMod.addPotion(PoisonFlask.class, PoisonFlask.liquidColor, PoisonFlask.hybridColor, PoisonFlask.spotsColor, PoisonFlask.POTION_ID, PoisonFlask.playerClass);
+        BaseMod.addPotion(SeekingPotion.class, SeekingPotion.liquidColor, SeekingPotion.hybridColor, SeekingPotion.spotsColor, SeekingPotion.POTION_ID);
 
         /*new AutoAdd(modID)
                 .packageFilter(AbstractEasyPotion.class)
