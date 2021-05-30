@@ -23,6 +23,10 @@
     "NAME": "Poison Flask",
     "DESCRIPTIONS": ["Apply #b", " #yPoison."]
   },
+  "${ModID}:RetainPotion": {
+    "NAME": "Retain Potion",
+    "DESCRIPTIONS": ["#yRetain your hand this turn.", "#yRetain your hand at the end of your next #b", " turns."]
+  },
   "${ModID}:SeekingPotion": {
     "NAME": "Seeking Potion",
     "DESCRIPTIONS": ["Put #b", " card from your draw pile into your hand.", " cards from your draw pile into your hand."]
