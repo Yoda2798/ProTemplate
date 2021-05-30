@@ -7,6 +7,10 @@
     "NAME": "Bottled Apotheosis",
     "DESCRIPTIONS": ["Upgrade ALL your cards for the rest of combat.", "Upgrade ALL your cards for the rest of combat #b", " times (if possible)."]
   },
+  "${ModID}:FelfirePotion": {
+    "NAME": "Felfire Potion",
+    "DESCRIPTIONS": ["Kill all non-Boss, non-Elite enemies.", "Kill all non-Boss enemies."]
+  },
   "${ModID}:LiquidGold": {
     "NAME": "Liquid Gold",
     "DESCRIPTIONS": ["Gain #b", " Gold."]

@@ -25,14 +25,14 @@ public class SuperEnergyPotion extends AbstractEasyPotion {
     public static final String NAME = potionStrings.NAME;
     public static final String[] DESCRIPTIONS = potionStrings.DESCRIPTIONS;
 
-    public static final Color liquidColor = CardHelper.getColor(172, 124, 40);
-    public static final Color hybridColor = CardHelper.getColor(235, 218, 69);
+    public static final Color liquidColor = Color.WHITE;
+    public static final Color hybridColor = null;
     public static final Color spotsColor = null;
 
     public static final AbstractPlayer.PlayerClass playerClass = null;
 
     public SuperEnergyPotion() {
-        super(NAME, POTION_ID, PotionRarity.RARE, PotionSize.BOLT, PotionEffect.RAINBOW, Color.WHITE, (Color)null, (Color)null, playerClass);
+        super(NAME, POTION_ID, PotionRarity.RARE, PotionSize.BOLT, PotionEffect.RAINBOW, liquidColor, hybridColor, spotsColor, playerClass);
     }
 
     @Override

@@ -97,6 +97,7 @@ public class YodasMod implements
 
         BaseMod.addPotion(BatteryAcid.class, BatteryAcid.liquidColor, BatteryAcid.hybridColor, BatteryAcid.spotsColor, BatteryAcid.POTION_ID, BatteryAcid.playerClass);
         BaseMod.addPotion(BottledApotheosis.class, BottledApotheosis.liquidColor, BottledApotheosis.hybridColor, BottledApotheosis.spotsColor, BottledApotheosis.POTION_ID);
+        BaseMod.addPotion(FelfirePotion.class, FelfirePotion.liquidColor, FelfirePotion.hybridColor, FelfirePotion.spotsColor, FelfirePotion.POTION_ID);
         BaseMod.addPotion(LiquidGold.class, LiquidGold.liquidColor, LiquidGold.hybridColor, LiquidGold.spotsColor, LiquidGold.POTION_ID);
         BaseMod.addPotion(PoisonFlask.class, PoisonFlask.liquidColor, PoisonFlask.hybridColor, PoisonFlask.spotsColor, PoisonFlask.POTION_ID, PoisonFlask.playerClass);
         BaseMod.addPotion(SeekingPotion.class, SeekingPotion.liquidColor, SeekingPotion.hybridColor, SeekingPotion.spotsColor, SeekingPotion.POTION_ID);
