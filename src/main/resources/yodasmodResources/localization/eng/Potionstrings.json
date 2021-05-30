@@ -31,6 +31,10 @@
     "NAME": "Seeking Potion",
     "DESCRIPTIONS": ["Put #b", " card from your draw pile into your hand.", " cards from your draw pile into your hand."]
   },
+  "${ModID}:SnakePotion": {
+    "NAME": "SnakePotion",
+    "DESCRIPTIONS": ["Draw #b", " card. At the start of your turn, draw #b", " cards. At the start of your turn, draw #b", " additional card.", " additional cards."]
+  },
   "${ModID}:SuperEnergyPotion": {
     "NAME": "Super Energy Potion",
     "DESCRIPTIONS": ["Gain #b", " Energy. Gain #b", " Energy at the start of your turn for the rest of combat."]

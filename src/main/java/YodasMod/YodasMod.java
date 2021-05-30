@@ -103,6 +103,7 @@ public class YodasMod implements
         BaseMod.addPotion(PoisonFlask.class, PoisonFlask.liquidColor, PoisonFlask.hybridColor, PoisonFlask.spotsColor, PoisonFlask.POTION_ID, PoisonFlask.playerClass);
         BaseMod.addPotion(RetainPotion.class, RetainPotion.liquidColor, RetainPotion.hybridColor, RetainPotion.spotsColor, RetainPotion.POTION_ID);
         BaseMod.addPotion(SeekingPotion.class, SeekingPotion.liquidColor, SeekingPotion.hybridColor, SeekingPotion.spotsColor, SeekingPotion.POTION_ID);
+        BaseMod.addPotion(SnakePotion.class, SnakePotion.liquidColor, SnakePotion.hybridColor, SnakePotion.spotsColor, SnakePotion.POTION_ID);
         BaseMod.addPotion(SuperEnergyPotion.class, SuperEnergyPotion.liquidColor, SuperEnergyPotion.hybridColor, SuperEnergyPotion.spotsColor, SuperEnergyPotion.POTION_ID);
 
         /*new AutoAdd(modID)
