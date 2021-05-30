@@ -84,6 +84,13 @@
       "During regular enemy combats (non-Boss or Elite), gain [E] [E] at the start of your turn."
     ]
   },
+  "${ModID}:StrangeFork": {
+    "NAME": "Strange Fork",
+    "FLAVOR": "Gives food a strange taste.",
+    "DESCRIPTIONS": [
+      "The first card played each combat which #yExhausts when played is instead discarded."
+    ]
+  },
   "${ModID}:TargetingComputer": {
     "NAME": "Targeting Computer",
     "FLAVOR": "Right click to turn off/on.",
