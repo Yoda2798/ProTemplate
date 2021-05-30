@@ -1,7 +1,6 @@
 package YodasMod.relics;
 
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.AbstractCard.CardColor;
 import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -31,10 +30,8 @@ public class EmptyKennel extends AbstractEasyRelic {
 
         AbstractDungeon.getCurrRoom().phase = AbstractRoom.RoomPhase.INCOMPLETE;
         CardGroup tmp = new CardGroup(CardGroup.CardGroupType.UNSPECIFIED);
-        Iterator var2 = AbstractDungeon.player.masterDeck.getPurgeableCards().group.iterator();
 
-        while(var2.hasNext()) {
-            AbstractCard card = (AbstractCard)var2.next();
+        for (AbstractCard card: AbstractDungeon.player.masterDeck.getPurgeableCards().group) {
             tmp.addToTop(card);
         }
 
@@ -61,10 +58,8 @@ public class EmptyKennel extends AbstractEasyRelic {
     public void deleteCards(ArrayList<AbstractCard> group) {
         this.cardsSelected = true;
         float displayCount = 0.0F;
-        Iterator i = group.iterator();
 
-        while(i.hasNext()) {
-            AbstractCard card = (AbstractCard)i.next();
+        for (AbstractCard card: group) {
             card.untip();
             card.unhover();
             AbstractDungeon.topLevelEffects.add(new PurgeCardEffect(card, (float) Settings.WIDTH / 3.0F + displayCount, (float)Settings.HEIGHT / 2.0F));

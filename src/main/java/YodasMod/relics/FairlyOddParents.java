@@ -2,7 +2,6 @@ package YodasMod.relics;
 
 import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
 import com.megacrit.cardcrawl.actions.common.RelicAboveCreatureAction;
-import com.megacrit.cardcrawl.cards.AbstractCard.CardColor;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 import static YodasMod.YodasMod.makeID;
