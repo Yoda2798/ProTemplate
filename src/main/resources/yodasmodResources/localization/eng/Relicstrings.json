@@ -56,6 +56,13 @@
       "If you have any [E] left at the end of your turn, gain #b1 [E] at the start of your next turn."
     ]
   },
+  "${ModID}:Intervention": {
+    "NAME": "Intervention",
+    "FLAVOR": "\"1v1 me on Rust n00b.\"",
+    "DESCRIPTIONS": [
+      "Once per combat, right click to kill all minion enemies and enemies at or below #b10 HP."
+    ]
+  },
   "${ModID}:PlatinumChip": {
     "NAME": "Platinum Chip",
     "FLAVOR": "The House Always Wins.",
