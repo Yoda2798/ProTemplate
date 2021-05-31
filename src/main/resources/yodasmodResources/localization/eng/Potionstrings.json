@@ -32,7 +32,7 @@
     "DESCRIPTIONS": ["Put #b", " card from your draw pile into your hand.", " cards from your draw pile into your hand."]
   },
   "${ModID}:SnakePotion": {
-    "NAME": "SnakePotion",
+    "NAME": "Snake Potion",
     "DESCRIPTIONS": ["Draw #b", " card. At the start of your turn, draw #b", " cards. At the start of your turn, draw #b", " additional card.", " additional cards."]
   },
   "${ModID}:SuperEnergyPotion": {
