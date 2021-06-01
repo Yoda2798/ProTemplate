@@ -36,7 +36,7 @@ public class CampfireSimulationEffect extends AbstractGameEffect {
             if (AbstractDungeon.player.hasRelic(Holodeck.ID)) {
                 AbstractDungeon.player.getRelic(Holodeck.ID).flash();
                 ++AbstractDungeon.player.getRelic(Holodeck.ID).counter;
-                CardCrawlGame.sound.play("ATTACK_HEAVY");
+                CardCrawlGame.sound.play("ATTACK_DEFECT_BEAM");
                 CardCrawlGame.screenShake.shake(ShakeIntensity.HIGH, ShakeDur.SHORT, true);
                 CardCrawlGame.metricData.addCampfireChoiceData("SIMULATION", Integer.toString(AbstractDungeon.player.getRelic(Holodeck.ID).counter));
             }

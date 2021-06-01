@@ -7,10 +7,6 @@ import com.megacrit.cardcrawl.cards.AbstractCard.CardColor;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.FocusPower;
-import com.megacrit.cardcrawl.relics.AbstractRelic;
-import com.megacrit.cardcrawl.relics.Girya;
-import com.megacrit.cardcrawl.relics.PeacePipe;
-import com.megacrit.cardcrawl.relics.Shovel;
 import com.megacrit.cardcrawl.ui.campfire.AbstractCampfireOption;
 
 import java.util.ArrayList;
@@ -19,7 +15,7 @@ import static YodasMod.YodasMod.makeID;
 
 public class Holodeck extends AbstractEasyRelic {
     public static final String ID = makeID("Holodeck");
-    public static final int FOCUS_LIMIT = 3;
+    public static final int FOCUS_LIMIT = 2;
 
     public Holodeck() {
         super(ID, RelicTier.RARE, LandingSound.FLAT, CardColor.BLUE);
@@ -35,14 +31,7 @@ public class Holodeck extends AbstractEasyRelic {
     }
 
     public boolean canSpawn() {
-        if (AbstractDungeon.floorNum >= 48 && !Settings.isEndless)
-            return false;
-        int campfireRelicCount = 0;
-        for (AbstractRelic r : AbstractDungeon.player.relics) {
-            if (r instanceof PeacePipe || r instanceof Shovel || r instanceof Girya)
-                campfireRelicCount++;
-        }
-        return (campfireRelicCount < 2);
+        return AbstractDungeon.floorNum < 48 || Settings.isEndless;
     }
 
     public void addCampfireOption(ArrayList<AbstractCampfireOption> options) {
