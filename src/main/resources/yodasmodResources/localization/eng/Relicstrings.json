@@ -44,9 +44,16 @@
   },
   "${ModID}:FairlyOddParents": {
     "NAME": "Fairly Odd Parents",
-    "FLAVOR": "Yup.",
+    "FLAVOR": "\"Dinkleberg!\"",
     "DESCRIPTIONS": [
       "Gain [E] at the start of each odd turn."
+    ]
+  },
+  "${ModID}:Homakunda": {
+    "NAME": "Homakunda",
+    "FLAVOR": "\"My Homakunda don't want none unless you got buns, hun.\"",
+    "DESCRIPTIONS": [
+      "While in #yWrath, receive #b1.5x attack damage rather than #b2x."
     ]
   },
   "${ModID}:IceLolly": {
