@@ -1,0 +1,9 @@
+{
+  "${ModID}:SimulationOption": {
+  "TEXT": [
+    "Run Simulation",
+    "Start battles with +1 Focus. (Up to 2)",
+    ""
+  ]
+  }
+}

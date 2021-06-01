@@ -49,6 +49,13 @@
       "Gain [E] at the start of each odd turn."
     ]
   },
+  "${ModID}:Holodeck": {
+    "NAME": "Holodeck",
+    "FLAVOR": "\"Holodeck? Hello to you too captain!\"",
+    "DESCRIPTIONS": [
+      "You can now gain #yFocus at Rest Sites (up to #b2 times)."
+    ]
+  },
   "${ModID}:Homakunda": {
     "NAME": "Homakunda",
     "FLAVOR": "\"My Homakunda don't want none unless you got buns, hun.\"",
