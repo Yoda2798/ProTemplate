@@ -20,6 +20,13 @@
       "Whenever you apply #yVulnerable, apply an additional #b1 #yVulnerable."
     ]
   },
+  "${ModID}:CyberKatana": {
+    "NAME": "Cyber Katana",
+    "FLAVOR": "Made from Copperclad and Zincclad.",
+    "DESCRIPTIONS": [
+      "Every time you play #b3 #yAttacks in a single turn, gain #b1 #yFocus."
+    ]
+  },
   "${ModID}:Duality2": {
     "NAME": "Duality 2",
     "FLAVOR": "\"Originality is hard.\"\n- Albert Einstein",
