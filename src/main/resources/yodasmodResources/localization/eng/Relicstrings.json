@@ -77,6 +77,20 @@
       "Once per combat, right click to kill all minion enemies and enemies at or below #b10 HP."
     ]
   },
+  "${ModID}:MiniatureBlackHole": {
+    "NAME": "Miniature Black Hole",
+    "FLAVOR": "Even denser than <insert person you dislike>!",
+    "DESCRIPTIONS": [
+      "Gain [E] [E] at the start of your turn. You can no longer obtain relics."
+    ]
+  },
+  "${ModID}:Pencil": {
+    "NAME": "Pencil",
+    "FLAVOR": "Always the write choice!",
+    "DESCRIPTIONS": [
+      "Whenever you draw cards, draw #b1 more."
+    ]
+  },
   "${ModID}:Phurba": {
     "NAME": "Phurba",
     "FLAVOR": "A Buddhist ritual dagger.",
