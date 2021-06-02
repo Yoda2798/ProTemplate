@@ -77,6 +77,13 @@
       "Once per combat, right click to kill all minion enemies and enemies at or below #b10 HP."
     ]
   },
+  "${ModID}:Phurba": {
+    "NAME": "Phurba",
+    "FLAVOR": "A Buddhist ritual dagger.",
+    "DESCRIPTIONS": [
+      "The first time you enter Wrath each combat, gain [E] ."
+    ]
+  },
   "${ModID}:PlatinumChip": {
     "NAME": "Platinum Chip",
     "FLAVOR": "The House Always Wins.",
