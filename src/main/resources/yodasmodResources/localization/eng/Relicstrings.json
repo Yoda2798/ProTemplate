@@ -154,5 +154,12 @@
     "DESCRIPTIONS": [
       "#yMantra is preserved across fights."
     ]
+  },
+  "${ModID}:ZombieArm": {
+    "NAME": "Zombie Arm",
+    "FLAVOR": "A mindless undead drone constantly stumbling towards a human organ? That sounds familiar somehow...",
+    "DESCRIPTIONS": [
+      "Whenever you play a card costing #b3 or more, a random card in your hand costs #b0 for the turn."
+    ]
   }
 }
