@@ -140,6 +140,13 @@
       "The first card played each combat which #yExhausts when played is instead discarded."
     ]
   },
+  "${ModID}:StrangeKnife": {
+    "NAME": "Strange Knife",
+    "FLAVOR": "\"Even now I could cut through the five of you like carving a cake!\"",
+    "DESCRIPTIONS": [
+      "When using a potion, there is a #b33% chance it will not be used up."
+    ]
+  },
   "${ModID}:TargetingComputer": {
     "NAME": "Targeting Computer",
     "FLAVOR": "Right click to turn off/on.",
