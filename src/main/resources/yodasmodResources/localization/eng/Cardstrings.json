@@ -11,6 +11,10 @@
     "NAME": "Defend Plus",
     "DESCRIPTION": "Gain !B! Block. NL Gain 5 Style Points for being awesome."
   },
+  "${ModID}:MirrorStance": {
+    "NAME": "Mirror Stance",
+    "DESCRIPTION": "If the enemy intends to attack, enter Wrath. Otherwise, enter Calm."
+  },
   "${ModID}:TemporaryPowerDemo": {
     "NAME": "Auto-Generated Temporary Power",
     "DESCRIPTION": "Whenever you Scry this turn, gain !M! Block."
