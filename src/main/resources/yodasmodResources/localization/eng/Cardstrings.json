@@ -15,6 +15,11 @@
     "NAME": "Mirror Stance",
     "DESCRIPTION": "If the enemy intends to attack, enter Wrath. Otherwise, enter Calm."
   },
+  "${ModID}:Mulligan": {
+    "NAME": "Mulligan",
+    "DESCRIPTION": "Discard your hand, then draw that many cards plus 1. NL Gain [E] . NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Discard your hand, then draw that many cards plus 2. NL Gain [E] [E] . NL Exhaust."
+  },
   "${ModID}:TemporaryPowerDemo": {
     "NAME": "Auto-Generated Temporary Power",
     "DESCRIPTION": "Whenever you Scry this turn, gain !M! Block."

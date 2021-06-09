@@ -175,6 +175,9 @@ public abstract class AbstractEasyCard extends CustomCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
+            if (cardStrings.UPGRADE_DESCRIPTION != null) {
+                uDesc();
+            }
             upp();
         }
     }
