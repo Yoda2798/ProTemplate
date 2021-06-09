@@ -24,6 +24,10 @@
     "DESCRIPTION": "Discard your hand, then draw that many cards plus 1. NL Gain [E] . NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Discard your hand, then draw that many cards plus 2. NL Gain [E] [E] . NL Exhaust."
   },
+  "${ModID}:OneForAll": {
+    "NAME": "One for All",
+    "DESCRIPTION": "Deal !D! damage. NL Put !M! cost 0 cards from your draw pile into your hand."
+  },
   "${ModID}:UploadVirus": {
     "NAME": "Upload Virus",
     "DESCRIPTION": "Apply !M! Weak, Vulnerable, and Lock-On. NL Exhaust."
