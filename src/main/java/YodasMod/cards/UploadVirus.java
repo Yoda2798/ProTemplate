@@ -3,13 +3,11 @@ package YodasMod.cards;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import YodasMod.cards.AbstractEasyCard;
 import com.megacrit.cardcrawl.powers.LockOnPower;
 import com.megacrit.cardcrawl.powers.VulnerablePower;
 import com.megacrit.cardcrawl.powers.WeakPower;
 
 import static YodasMod.YodasMod.makeID;
-import static YodasMod.util.Wiz.*;
 
 public class UploadVirus extends AbstractEasyCard {
     public final static String ID = makeID("UploadVirus");
