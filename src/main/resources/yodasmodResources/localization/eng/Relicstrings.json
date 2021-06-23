@@ -126,6 +126,13 @@
       "Whenever an enemy dies, gain #b1 Orb slot and channel a random Orb."
     ]
   },
+  "${ModID}:Shedinja": {
+    "NAME": "Shedinja",
+    "FLAVOR": "Combine with Tungsten Rod for the true experience.",
+    "DESCRIPTIONS": [
+      "At the start of each combat, gain #b2 #yIntangible."
+    ]
+  },
   "${ModID}:SlaversWhip": {
     "NAME": "Slaver's Whip",
     "FLAVOR": "Not dissimilar to the tool used by a certain famous archaeologist...",
