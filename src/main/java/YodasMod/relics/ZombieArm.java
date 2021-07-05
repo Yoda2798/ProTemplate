@@ -15,7 +15,7 @@ public class ZombieArm extends AbstractEasyRelic {
     public static final String ID = makeID("ZombieArm");
 
     public ZombieArm() {
-        super(ID, RelicTier.UNCOMMON, LandingSound.FLAT);
+        super(ID, RelicTier.COMMON, LandingSound.FLAT);
     }
 
     public void onUseCard(AbstractCard card, UseCardAction action) {
