@@ -20,6 +20,13 @@
       "Whenever you apply #yVulnerable, apply an additional #b1 #yVulnerable."
     ]
   },
+  "${ModID}:Calendar": {
+    "NAME": "Calendar",
+    "FLAVOR": "Only 3 more days till the Weakened!",
+    "DESCRIPTIONS": [
+      "Once per turn, after playing #b3 #ySkills, apply #b1 #yWeak to ALL enemies."
+    ]
+  },
   "${ModID}:CyberKatana": {
     "NAME": "Cyber Katana",
     "FLAVOR": "Made from Copperclad and Zincclad.",
