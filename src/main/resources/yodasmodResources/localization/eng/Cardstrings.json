@@ -11,6 +11,10 @@
     "NAME": "Defend Plus",
     "DESCRIPTION": "Gain !B! Block. NL Gain 5 Style Points for being awesome."
   },
+  "${ModID}:BelowTheBelt": {
+    "NAME": "Below the Belt",
+    "DESCRIPTION": "Deal !D! damage. NL Whenever you apply Vulnerable to an enemy, return this from the discard pile to your hand."
+  },
   "${ModID}:Enticement": {
     "NAME": "Enticement",
     "DESCRIPTION": "Gain !B! Block. NL ALL enemies gain !M! Strength."

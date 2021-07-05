@@ -1,5 +1,6 @@
 package YodasMod;
 
+import YodasMod.cards.BelowTheBelt;
 import YodasMod.potions.*;
 import basemod.AutoAdd;
 import basemod.BaseMod;
@@ -12,8 +13,13 @@ import com.badlogic.gdx.math.MathUtils;
 import com.evacipated.cardcrawl.mod.stslib.Keyword;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
+import com.megacrit.cardcrawl.actions.utility.DiscardToHandAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.CardHelper;
 import com.megacrit.cardcrawl.localization.*;
+import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 import YodasMod.cards.AbstractEasyCard;
 import YodasMod.cards.cardvars.SecondDamage;
@@ -32,7 +38,8 @@ public class YodasMod implements
         EditRelicsSubscriber,
         EditStringsSubscriber,
         EditKeywordsSubscriber,
-        EditCharactersSubscriber {
+        EditCharactersSubscriber,
+        PostPowerApplySubscriber {
 
     public static final String modID = "yodasmod";
 
@@ -202,6 +209,17 @@ public class YodasMod implements
         if (keywords != null) {
             for (Keyword keyword : keywords) {
                 BaseMod.addKeyword(modID, keyword.PROPER_NAME, keyword.NAMES, keyword.DESCRIPTION);
+            }
+        }
+    }
+
+    @Override
+    public void receivePostPowerApplySubscriber(AbstractPower power, AbstractCreature target, AbstractCreature source) {
+        if (power.ID.equals("Vulnerable") && source == AbstractDungeon.player && target != AbstractDungeon.player) {
+            for (AbstractCard c: AbstractDungeon.player.discardPile.group) {
+                if (c instanceof BelowTheBelt) {
+                    AbstractDungeon.actionManager.addToBottom(new DiscardToHandAction(c));
+                }
             }
         }
     }
