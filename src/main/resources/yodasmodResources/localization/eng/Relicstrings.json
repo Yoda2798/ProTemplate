@@ -144,7 +144,7 @@
     "NAME": "Slaver's Whip",
     "FLAVOR": "Not dissimilar to the tool used by a certain famous archaeologist...",
     "DESCRIPTIONS": [
-      "During regular enemy combats (non-Boss or Elite), gain [E] [E] at the start of your turn."
+      "During non-Boss combats, gain [E] [E] at the start of your turn."
     ]
   },
   "${ModID}:StrangeFork": {

@@ -15,15 +15,15 @@ public class SlaversWhip extends AbstractEasyRelic {
     }
 
     public void beforeEnergyPrep() {
-        boolean isEliteOrBoss = AbstractDungeon.getCurrRoom().eliteTrigger;
+        boolean isBoss = false;
         for (AbstractMonster m: AbstractDungeon.getMonsters().monsters) {
             if (m.type == AbstractMonster.EnemyType.BOSS) {
-                isEliteOrBoss = true;
+                isBoss = true;
                 break;
             }
         }
 
-        if (!isEliteOrBoss) {
+        if (!isBoss) {
             this.beginLongPulse();
             this.flash();
             ++AbstractDungeon.player.energy.energyMaster;
