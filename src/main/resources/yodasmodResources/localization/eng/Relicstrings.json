@@ -63,6 +63,13 @@
       "Gain [E] at the start of each odd turn."
     ]
   },
+  "${ModID}:Gumguard": {
+    "NAME": "Gumguard",
+    "FLAVOR": "Retain your teeth!",
+    "DESCRIPTIONS": [
+      "At the end of your first turn every combat, #yRetain your hand."
+    ]
+  },
   "${ModID}:Holodeck": {
     "NAME": "Holodeck",
     "FLAVOR": "\"Holodeck? Hello to you too captain!\"",
