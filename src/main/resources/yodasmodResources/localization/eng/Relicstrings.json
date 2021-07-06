@@ -29,7 +29,7 @@
   },
   "${ModID}:CyberKatana": {
     "NAME": "Cyber Katana",
-    "FLAVOR": "Made from Copperclad and Zincclad.",
+    "FLAVOR": "\"While you were busy Defragmenting, I studied the blade.\"",
     "DESCRIPTIONS": [
       "Every time you play #b3 #yAttacks in a single turn, gain #b1 #yFocus."
     ]
@@ -81,7 +81,7 @@
     "NAME": "Ice Lolly",
     "FLAVOR": "Melts quicker than Ice Cream.",
     "DESCRIPTIONS": [
-      "If you have any [E] left at the end of your turn, gain #b1 [E] at the start of your next turn."
+      "If you have any [E] left at the end of your turn, gain [E] at the start of your next turn."
     ]
   },
   "${ModID}:Intervention": {

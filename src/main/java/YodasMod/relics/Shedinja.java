@@ -19,14 +19,14 @@ public class Shedinja extends AbstractEasyRelic {
     }
 
     public void atPreBattle() {
-        this.firstTurn = true;// 44
-    }// 45
+        this.firstTurn = true;
+    }
 
     public void atTurnStart() {
         if (this.firstTurn) {
             AbstractPlayer p = AbstractDungeon.player;
             this.flash();
-            this.addToBot(new ApplyPowerAction(p, p, new IntangiblePlayerPower(p, this.INTANGIBLE_AMOUNT), this.INTANGIBLE_AMOUNT));
+            this.addToBot(new ApplyPowerAction(p, p, new IntangiblePlayerPower(p, INTANGIBLE_AMOUNT), INTANGIBLE_AMOUNT));
             this.addToTop(new RelicAboveCreatureAction(AbstractDungeon.player, this));
             this.firstTurn = false;
         }

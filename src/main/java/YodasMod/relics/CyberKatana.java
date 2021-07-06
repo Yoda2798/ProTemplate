@@ -25,7 +25,7 @@ public class CyberKatana extends AbstractEasyRelic {
     public void onUseCard(AbstractCard card, UseCardAction action) {
         if (card.type == AbstractCard.CardType.ATTACK) {
             ++this.counter;
-            if (this.counter % 3 == 0) {
+            if (this.counter % NUM_CARDS == 0) {
                 this.counter = 0;
                 this.flash();
                 this.addToBot(new RelicAboveCreatureAction(AbstractDungeon.player, this));

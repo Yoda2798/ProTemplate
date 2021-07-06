@@ -13,13 +13,14 @@ import static YodasMod.YodasMod.makeID;
 
 public class ZombieArm extends AbstractEasyRelic {
     public static final String ID = makeID("ZombieArm");
+    private static final int MIN_COST = 3;
 
     public ZombieArm() {
         super(ID, RelicTier.COMMON, LandingSound.FLAT);
     }
 
     public void onUseCard(AbstractCard card, UseCardAction action) {
-        if (card.costForTurn >= 3 || (card.cost == -1 && EnergyPanel.getCurrentEnergy() >= 3)) {
+        if (card.costForTurn >= MIN_COST || (card.cost == -1 && EnergyPanel.getCurrentEnergy() >= MIN_COST)) {
             this.flash();
             this.addToTop(new RelicAboveCreatureAction(AbstractDungeon.player, this));
             ArrayList<AbstractCard> cards = new ArrayList<>();

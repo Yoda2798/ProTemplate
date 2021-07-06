@@ -11,6 +11,8 @@ import static YodasMod.YodasMod.makeID;
 
 public class PlatinumChip extends AbstractEasyRelic {
     public static final String ID = makeID("PlatinumChip");
+    public static final int FOCUS = 3;
+    public static final int ORBS = 1;
 
     public PlatinumChip() {
         super(ID, RelicTier.BOSS, LandingSound.CLINK, AbstractCard.CardColor.BLUE);
@@ -18,8 +20,8 @@ public class PlatinumChip extends AbstractEasyRelic {
 
     public void atBattleStart() {
         this.flash();
-        this.addToTop(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new FocusPower(AbstractDungeon.player, 3), 1));
-        this.addToBot(new IncreaseMaxOrbAction(1));
+        this.addToTop(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new FocusPower(AbstractDungeon.player, FOCUS), 1));
+        this.addToBot(new IncreaseMaxOrbAction(ORBS));
         this.addToTop(new RelicAboveCreatureAction(AbstractDungeon.player, this));
     }
 }

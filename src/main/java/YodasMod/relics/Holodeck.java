@@ -35,6 +35,6 @@ public class Holodeck extends AbstractEasyRelic {
     }
 
     public void addCampfireOption(ArrayList<AbstractCampfireOption> options) {
-        options.add(new SimulationOption(this.counter < 2));
+        options.add(new SimulationOption(this.counter < FOCUS_LIMIT));
     }
 }

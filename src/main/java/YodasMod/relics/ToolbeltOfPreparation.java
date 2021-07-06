@@ -24,10 +24,10 @@ public class ToolbeltOfPreparation extends AbstractEasyRelic {
             ++this.counter;
         }
 
-        if (this.counter == 2) {
+        if (this.counter == TURN_ACTIVATION) {
             this.flash();
             this.addToBot(new RelicAboveCreatureAction(AbstractDungeon.player, this));// 24
-            this.addToBot(new DrawCardAction(AbstractDungeon.player, 2));// 25
+            this.addToBot(new DrawCardAction(AbstractDungeon.player, NUM_CARDS));// 25
             this.counter = -1;
             this.grayscale = true;
         }
