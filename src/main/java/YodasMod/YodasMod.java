@@ -20,6 +20,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.CardHelper;
 import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.powers.VulnerablePower;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 import YodasMod.cards.AbstractEasyCard;
 import YodasMod.cards.cardvars.SecondDamage;
@@ -217,7 +218,7 @@ public class YodasMod implements
 
     @Override
     public void receivePostPowerApplySubscriber(AbstractPower power, AbstractCreature target, AbstractCreature source) {
-        if (power.ID.equals("Vulnerable") && source == AbstractDungeon.player && target != AbstractDungeon.player) {
+        if (power.ID.equals(VulnerablePower.POWER_ID) && source == AbstractDungeon.player && target != AbstractDungeon.player) {
             for (AbstractCard c: AbstractDungeon.player.discardPile.group) {
                 if (c instanceof BelowTheBelt) {
                     AbstractDungeon.actionManager.addToBottom(new DiscardToHandAction(c));

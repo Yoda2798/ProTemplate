@@ -5,6 +5,7 @@ import com.megacrit.cardcrawl.actions.common.RelicAboveCreatureAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.EquilibriumPower;
+import com.megacrit.cardcrawl.relics.RunicPyramid;
 
 import static YodasMod.YodasMod.makeID;
 
@@ -23,6 +24,6 @@ public class Gumguard extends AbstractEasyRelic {
     }
 
     public boolean canSpawn() {
-        return !AbstractDungeon.player.hasRelic("Runic Pyramid");
+        return !AbstractDungeon.player.hasRelic(RunicPyramid.ID);
     }
 }
