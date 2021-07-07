@@ -13,7 +13,6 @@ import javassist.CtBehavior;
         method = "generateMap"
 )
 public class PotOfGoldPatch {
-    protected static int actNum = -1;
 
     @SpireInsertPatch(
             locator = PotOfGoldPatch.Locator.class
