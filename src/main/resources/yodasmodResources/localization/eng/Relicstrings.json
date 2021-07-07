@@ -13,6 +13,13 @@
       "Whenever you apply #yWeak, apply an additional #b1 #yWeak."
     ]
   },
+  "${ModID}:Blur": {
+    "NAME": "Blur",
+    "FLAVOR": "\"Girls who want boys who like boys to be girls!\"",
+    "DESCRIPTIONS": [
+      "At the start of each combat, gain #b2 #yBlur."
+    ]
+  },
   "${ModID}:BrassKnuckles": {
     "NAME": "Brass Knuckles",
     "FLAVOR": "Made from Copperclad and Zincclad.",
