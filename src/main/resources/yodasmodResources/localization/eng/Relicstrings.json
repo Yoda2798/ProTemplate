@@ -126,6 +126,13 @@
       "Start each combat with #b3 #yFocus and #b1 additional Orb slot."
     ]
   },
+  "${ModID}:PotOfGold": {
+    "NAME": "Pot of Gold",
+    "FLAVOR": "Thankfully, no leprechauns are involved to obtain it.",
+    "DESCRIPTIONS": [
+      "Upon pickup, gain #b999 gold. The #b1st floor of the next act is a shop."
+    ]
+  },
   "${ModID}:Propeller": {
     "NAME": "Propeller",
     "FLAVOR": "Don't stick your hand inside it.",
@@ -194,7 +201,7 @@
     "NAME": "Twin Sunflower",
     "FLAVOR": "\"My sunflowers have doubled since the last time we met.\"\n- Dave Skywalker",
     "DESCRIPTIONS": [
-      "In every 2nd combat, gain [E] at the start of your turn."
+      "In every #b2nd combat, gain [E] at the start of your turn."
     ]
   },
   "${ModID}:WoodenShield": {
