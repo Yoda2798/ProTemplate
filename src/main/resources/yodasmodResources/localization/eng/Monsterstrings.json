@@ -1,0 +1,7 @@
+{
+  "${ModID}:Champ": {
+  "DIALOG": [
+    "@YOU@ @STOLE@ @MY@ @SPARE@ @HAT!!@"
+  ]
+  }
+}
