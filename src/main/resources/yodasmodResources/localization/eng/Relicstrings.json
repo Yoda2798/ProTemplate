@@ -211,6 +211,13 @@
       "In every #b2nd combat, gain [E] at the start of your turn."
     ]
   },
+  "${ModID}:TwoHeads": {
+    "NAME": "Two Heads",
+    "FLAVOR": "Are better than one Giant Head.",
+    "DESCRIPTIONS": [
+      "The first #yAttack, #ySkill, and #yPower played each combat are played twice."
+    ]
+  },
   "${ModID}:WoodenShield": {
     "NAME": "Wooden Shield",
     "FLAVOR": "Blocks for less than you wood want.",
