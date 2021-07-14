@@ -41,6 +41,13 @@
       "Every time you play #b3 #yAttacks in a single turn, gain #b1 #yFocus."
     ]
   },
+  "${ModID}:DealOrNoDeal": {
+    "NAME": "Deal or No Deal",
+    "FLAVOR": "Much less entertaining than \"The Chase.\"",
+    "DESCRIPTIONS": [
+      "Upon pickup, receive a choice of #b2 Boss relics."
+    ]
+  },
   "${ModID}:Duality2": {
     "NAME": "Duality 2",
     "FLAVOR": "\"Originality is hard.\"\n- Albert Einstein",
