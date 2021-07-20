@@ -28,7 +28,8 @@ public class DealOrNoDeal extends AbstractEasyRelic {
                 AbstractDungeon.combatRewardScreen.rewards.add(new RewardItem(AbstractDungeon.returnRandomRelic(RelicTier.BOSS)));
             }*/
             LinkedRewardItem reward1 = new LinkedRewardItem(new LinkedRewardItem(new RewardItem(AbstractDungeon.returnRandomRelic(RelicTier.BOSS))));
-            LinkedRewardItem reward2 = new LinkedRewardItem(reward1, AbstractDungeon.returnRandomRelic(RelicTier.BOSS));
+            LinkedRewardItem reward2 = new LinkedRewardItem(new LinkedRewardItem(new RewardItem(AbstractDungeon.returnRandomRelic(RelicTier.BOSS))));
+            reward1.addRelicLink(reward2);
             AbstractDungeon.combatRewardScreen.rewards.add(reward1);
             AbstractDungeon.combatRewardScreen.rewards.add(reward2);
             AbstractDungeon.combatRewardScreen.positionRewards();
