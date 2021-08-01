@@ -104,12 +104,16 @@ public class YodasMod implements
     public void receiveEditPotions() {
 
         BaseMod.addPotion(BatteryAcid.class, BatteryAcid.liquidColor, BatteryAcid.hybridColor, BatteryAcid.spotsColor, BatteryAcid.POTION_ID, BatteryAcid.playerClass);
+        BaseMod.addPotion(BluePotion.class, BluePotion.liquidColor, BluePotion.hybridColor, BluePotion.spotsColor, BluePotion.POTION_ID);
         BaseMod.addPotion(BottledApotheosis.class, BottledApotheosis.liquidColor, BottledApotheosis.hybridColor, BottledApotheosis.spotsColor, BottledApotheosis.POTION_ID);
         BaseMod.addPotion(BottledHand.class, BottledHand.liquidColor, BottledHand.hybridColor, BottledHand.spotsColor, BottledHand.POTION_ID);
         BaseMod.addPotion(FelfirePotion.class, FelfirePotion.liquidColor, FelfirePotion.hybridColor, FelfirePotion.spotsColor, FelfirePotion.POTION_ID);
+        BaseMod.addPotion(GreenPotion.class, GreenPotion.liquidColor, GreenPotion.hybridColor, GreenPotion.spotsColor, GreenPotion.POTION_ID);
         BaseMod.addPotion(LiquidGold.class, LiquidGold.liquidColor, LiquidGold.hybridColor, LiquidGold.spotsColor, LiquidGold.POTION_ID);
         BaseMod.addPotion(PoisonFlask.class, PoisonFlask.liquidColor, PoisonFlask.hybridColor, PoisonFlask.spotsColor, PoisonFlask.POTION_ID, PoisonFlask.playerClass);
+        BaseMod.addPotion(PurplePotion.class, PurplePotion.liquidColor, PurplePotion.hybridColor, PurplePotion.spotsColor, PurplePotion.POTION_ID, PurplePotion.playerClass);
         BaseMod.addPotion(RedBull.class, RedBull.liquidColor, RedBull.hybridColor, RedBull.spotsColor, RedBull.POTION_ID);
+        BaseMod.addPotion(RedPotion.class, RedPotion.liquidColor, RedPotion.hybridColor, RedPotion.spotsColor, RedPotion.POTION_ID);
         BaseMod.addPotion(RetainPotion.class, RetainPotion.liquidColor, RetainPotion.hybridColor, RetainPotion.spotsColor, RetainPotion.POTION_ID);
         BaseMod.addPotion(SeekingPotion.class, SeekingPotion.liquidColor, SeekingPotion.hybridColor, SeekingPotion.spotsColor, SeekingPotion.POTION_ID);
         BaseMod.addPotion(SnakePotion.class, SnakePotion.liquidColor, SnakePotion.hybridColor, SnakePotion.spotsColor, SnakePotion.POTION_ID);

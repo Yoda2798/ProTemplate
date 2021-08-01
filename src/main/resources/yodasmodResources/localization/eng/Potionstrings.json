@@ -3,6 +3,10 @@
     "NAME": "Battery Acid",
     "DESCRIPTIONS": ["Gain #b", " #yFocus. At the end of your turn, lose #b", " #yFocus."]
   },
+  "${ModID}:BluePotion": {
+    "NAME": "Blue Potion",
+    "DESCRIPTIONS": ["Choose #b1 of #b3 random #bBlue cards to add to your hand, it costs #b0 this turn.", "Choose #b1 of #b3 random #bBlue cards and add #b", " copies to your hand, they cost #b0 this turn."]
+  },
   "${ModID}:BottledApotheosis": {
     "NAME": "Bottled Apotheosis",
     "DESCRIPTIONS": ["Upgrade ALL your cards for the rest of combat.", "Upgrade ALL your cards for the rest of combat #b", " times (if possible)."]
@@ -15,6 +19,10 @@
     "NAME": "Felfire Potion",
     "DESCRIPTIONS": ["Kill all non-Boss, non-Elite enemies.", "Kill all non-Boss enemies."]
   },
+  "${ModID}:GreenPotion": {
+    "NAME": "Green Potion",
+    "DESCRIPTIONS": ["Choose #b1 of #b3 random #gGreen cards to add to your hand, it costs #b0 this turn.", "Choose #b1 of #b3 random #gGreen cards and add #b", " copies to your hand, they cost #b0 this turn."]
+  },
   "${ModID}:LiquidGold": {
     "NAME": "Liquid Gold",
     "DESCRIPTIONS": ["Gain #b", " Gold."]
@@ -23,9 +31,17 @@
     "NAME": "Poison Flask",
     "DESCRIPTIONS": ["Apply #b", " #yPoison."]
   },
+  "${ModID}:PurplePotion": {
+    "NAME": "Purple Potion",
+    "DESCRIPTIONS": ["Choose #b1 of #b3 random #pPurple cards to add to your hand, it costs #b0 this turn.", "Choose #b1 of #b3 random #pPurple cards and add #b", " copies to your hand, they cost #b0 this turn."]
+  },
   "${ModID}:RedBull": {
     "NAME": "Red Bull",
     "DESCRIPTIONS": ["Gives You Wings. You may ignore paths when choosing the next room to travel to #b", " time.", " times."]
+  },
+  "${ModID}:RedPotion": {
+    "NAME": "Red Potion",
+    "DESCRIPTIONS": ["Choose #b1 of #b3 random #rRed cards to add to your hand, it costs #b0 this turn.", "Choose #b1 of #b3 random #rRed cards and add #b", " copies to your hand, they cost #b0 this turn."]
   },
   "${ModID}:RetainPotion": {
     "NAME": "Retain Potion",
