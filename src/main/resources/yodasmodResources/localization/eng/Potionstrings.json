@@ -3,6 +3,10 @@
     "NAME": "Battery Acid",
     "DESCRIPTIONS": ["Gain #b", " #yFocus. At the end of your turn, lose #b", " #yFocus."]
   },
+  "${ModID}:BlessingOfLaForge": {
+    "NAME": "Blessing of La Forge",
+    "DESCRIPTIONS": ["The next #b", " time an upgradeable card in your deck is played, permanently #yUpgrade it.", " times an upgradeable card in your deck is played, permanently #yUpgrade it."]
+  },
   "${ModID}:BluePotion": {
     "NAME": "Blue Potion",
     "DESCRIPTIONS": ["Choose #b1 of #b3 random #bBlue cards to add to your hand, it costs #b0 this turn.", "Choose #b1 of #b3 random #bBlue cards and add #b", " copies to your hand, they cost #b0 this turn."]

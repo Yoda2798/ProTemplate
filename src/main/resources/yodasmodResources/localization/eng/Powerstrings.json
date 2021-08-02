@@ -6,5 +6,9 @@
   "${ModID}:LoseFocusPower": {
     "NAME": "Focus Down",
     "DESCRIPTIONS": ["Lose #b", " #yFocus at the end of your turn."]
+  },
+  "${ModID}:UpgradeNextCardPower": {
+    "NAME": "Blessing of La Forge",
+    "DESCRIPTIONS": ["The next #b", " time an upgradeable card in your deck is played, permanently #yUpgrade it.", " times an upgradeable card in your deck is played, permanently #yUpgrade it."]
   }
 }
