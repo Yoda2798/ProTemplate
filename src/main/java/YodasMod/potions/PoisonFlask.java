@@ -38,7 +38,7 @@ public class PoisonFlask extends AbstractEasyPotion {
         this.description = DESCRIPTIONS[0] + this.potency + DESCRIPTIONS[1];
         this.tips.clear();
         this.tips.add(new PowerTip(this.name, this.description));
-        this.tips.add(new PowerTip(TipHelper.capitalize(GameDictionary.POISON.NAMES[0]), (String)GameDictionary.keywords.get(GameDictionary.POISON.NAMES[0])));
+        this.tips.add(new PowerTip(TipHelper.capitalize(GameDictionary.POISON.NAMES[0]), GameDictionary.keywords.get(GameDictionary.POISON.NAMES[0])));
     }
 
     @Override
