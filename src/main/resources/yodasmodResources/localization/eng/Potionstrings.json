@@ -43,6 +43,10 @@
     "NAME": "Red Bull",
     "DESCRIPTIONS": ["Gives You Wings. You may ignore paths when choosing the next room to travel to #b", " time.", " times."]
   },
+  "${ModID}:RarePotion": {
+    "NAME": "Rare Potion",
+    "DESCRIPTIONS": ["Choose #b1 of #b3 random rare cards to add to your hand, it costs #b0 this turn.", "Choose #b1 of #b3 random rare cards and add #b", " copies to your hand, they cost #b0 this turn."]
+  },
   "${ModID}:RedPotion": {
     "NAME": "Red Potion",
     "DESCRIPTIONS": ["Choose #b1 of #b3 random #rRed cards to add to your hand, it costs #b0 this turn.", "Choose #b1 of #b3 random #rRed cards and add #b", " copies to your hand, they cost #b0 this turn."]
