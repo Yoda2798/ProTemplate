@@ -32,7 +32,9 @@ public class PurplePotion extends AbstractEasyPotion {
 
     static {
         for (AbstractCard c: CardLibrary.getCardList(CardLibrary.LibraryType.PURPLE)) {
-            purpleCards.addToTop(c);
+            if (!c.hasTag(AbstractCard.CardTags.HEALING)) {
+                purpleCards.addToTop(c);
+            }
         }
     }
 

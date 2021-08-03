@@ -30,7 +30,9 @@ public class GreenPotion extends AbstractEasyPotion {
 
     static {
         for (AbstractCard c: CardLibrary.getCardList(CardLibrary.LibraryType.GREEN)) {
-            greenCards.addToTop(c);
+            if (!c.hasTag(AbstractCard.CardTags.HEALING)) {
+                greenCards.addToTop(c);
+            }
         }
     }
 

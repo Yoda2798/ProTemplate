@@ -30,7 +30,9 @@ public class BluePotion extends AbstractEasyPotion {
 
     static {
         for (AbstractCard c: CardLibrary.getCardList(CardLibrary.LibraryType.BLUE)) {
-            blueCards.addToTop(c);
+            if (!c.hasTag(AbstractCard.CardTags.HEALING)) {
+                blueCards.addToTop(c);
+            }
         }
     }
 

@@ -30,7 +30,9 @@ public class RedPotion extends AbstractEasyPotion {
 
     static {
         for (AbstractCard c: CardLibrary.getCardList(CardLibrary.LibraryType.RED)) {
-            redCards.addToTop(c);
+            if (!c.hasTag(AbstractCard.CardTags.HEALING)) {
+                redCards.addToTop(c);
+            }
         }
     }
 
