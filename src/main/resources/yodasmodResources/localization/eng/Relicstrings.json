@@ -34,6 +34,13 @@
       "Once per turn, after playing #b3 #ySkills, apply #b1 #yWeak to ALL enemies."
     ]
   },
+  "${ModID}:CleanEnergy": {
+    "NAME": "Clean Energy",
+    "FLAVOR": "Channels the combined energy of the four characters, but requires giving up your uniqueness to use.",
+    "DESCRIPTIONS": [
+      "Replaces starter relic. Gain [E] at the start of your turn."
+    ]
+  },
   "${ModID}:CyberKatana": {
     "NAME": "Cyber Katana",
     "FLAVOR": "\"While you were busy Defragmenting, I studied the blade.\"",
