@@ -126,6 +126,13 @@
       "Whenever you draw cards, draw #b1 more."
     ]
   },
+  "${ModID}:Photocopier": {
+    "NAME": "Photocopier",
+    "FLAVOR": "Also functions as a printer, hence the ability to print new cards.",
+    "DESCRIPTIONS": [
+      "Duplicate your entire deck."
+    ]
+  },
   "${ModID}:Phurba": {
     "NAME": "Phurba",
     "FLAVOR": "A Buddhist ritual dagger.",
