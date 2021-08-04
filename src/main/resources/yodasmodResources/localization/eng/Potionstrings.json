@@ -19,6 +19,14 @@
     "NAME": "Bottled Hand",
     "DESCRIPTIONS": ["Apply #b", " #yBlock #yReturn (Whenever you attack this enemy, gain #b", " #yBlock)."]
   },
+  "${ModID}:EssenceOfFrost": {
+    "NAME": "Essence of Frost",
+    "DESCRIPTIONS": ["Channel #b", " #yFrost orbs."]
+  },
+  "${ModID}:EssenceOfLightning": {
+    "NAME": "Essence of Lightning",
+    "DESCRIPTIONS": ["Channel #b", " #yLightning orbs."]
+  },
   "${ModID}:FelfirePotion": {
     "NAME": "Felfire Potion",
     "DESCRIPTIONS": ["Kill all non-Boss, non-Elite enemies.", "Kill all non-Boss enemies."]
