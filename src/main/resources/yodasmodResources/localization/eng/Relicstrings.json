@@ -41,6 +41,13 @@
       "Replaces starter relic. Gain [E] at the start of your turn."
     ]
   },
+  "${ModID}:ColdFace": {
+    "NAME": "Cold Face",
+    "FLAVOR": "Shiver without the Shivs.",
+    "DESCRIPTIONS": [
+      "At the start of each combat, #yChannel #b1 #yFrost."
+    ]
+  },
   "${ModID}:CyberKatana": {
     "NAME": "Cyber Katana",
     "FLAVOR": "\"While you were busy Defragmenting, I studied the blade.\"",
