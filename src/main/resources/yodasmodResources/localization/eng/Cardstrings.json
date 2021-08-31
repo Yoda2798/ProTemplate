@@ -15,6 +15,11 @@
     "NAME": "Below the Belt",
     "DESCRIPTION": "Deal !D! damage. NL Whenever you apply Vulnerable to an enemy, return this from the discard pile to your hand."
   },
+  "${ModID}:EmptyDeck": {
+    "NAME": "Empty Deck",
+    "DESCRIPTION": "Exhaust ALL Status and Curse cards. NL Exit your Stance. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Exhaust ALL Status and Curse cards. NL Exit your Stance. NL Exhaust."
+  },
   "${ModID}:Enticement": {
     "NAME": "Enticement",
     "DESCRIPTION": "Gain !B! Block. NL ALL enemies gain !M! Strength."
