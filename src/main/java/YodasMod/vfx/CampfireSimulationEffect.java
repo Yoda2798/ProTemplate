@@ -19,7 +19,7 @@ import com.megacrit.cardcrawl.vfx.BorderFlashEffect;
 public class CampfireSimulationEffect extends AbstractGameEffect {
     private static final float DUR = 2.0F;
     private boolean hasTrained = false;
-    private Color screenColor;
+    private final Color screenColor;
 
     public CampfireSimulationEffect() {
         this.screenColor = AbstractDungeon.fadeColor.cpy();

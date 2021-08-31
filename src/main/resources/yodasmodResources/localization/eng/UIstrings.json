@@ -1,9 +1,17 @@
 {
   "${ModID}:SimulationOption": {
-  "TEXT": [
-    "Run Simulation",
-    "Start battles with +1 Focus. (Up to 2)",
-    ""
-  ]
+    "TEXT": [
+      "Run Simulation",
+      "Start battles with +1 Focus. (Up to 2)",
+      "",
+      "#bRan #bSimulation %s/2"
+    ]
+  },
+  "${ModID}:TransformOption": {
+    "TEXT": [
+      "Transform",
+      "Transform a card in your deck.",
+      "No Transformable cards."
+    ]
   }
 }
