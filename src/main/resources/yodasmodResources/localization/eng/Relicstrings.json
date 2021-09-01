@@ -232,6 +232,13 @@
       ", you switched off your targeting computer! What's wrong?"
     ]
   },
+  "${ModID}:TheThinker": {
+    "NAME": "The Thinker",
+    "FLAVOR": "Slay the Spire player contemplating buying Prismatic Shard (colourised).",
+    "DESCRIPTIONS": [
+      "At the start of each combat, add an #yInsight into your hand."
+    ]
+  },
   "${ModID}:ToolbeltOfPreparation": {
     "NAME": "Toolbelt of Preparation",
     "FLAVOR": "Has a tool for every situation!\n(If by \"tool\" you mean \"drawing cards\", and by \"situation\" you mean \"turn 2\".)",
