@@ -31,11 +31,11 @@ public class RunHistoryCampfirePatch {
         if (campfireChoice != null) {
             int sbLength = sb.length();
             switch (campfireChoice.key) {
-                case "SIMULATION":
+                case "YODA:SIMULATION":
                     sb.delete(sbLength - TEXT_MISSING_INFO.length(), sbLength);
                     sb.append(String.format(TEXT_SIMULATED, campfireChoice.data));
                     break;
-                case "TRANSFORM":
+                case "YODA:TRANSFORM":
                     sb.delete(sbLength - TEXT_MISSING_INFO.length(), sbLength);
                     String[] data = campfireChoice.data.split("YYOODDAA");
                     sb.append(String.format(TEXT_TRANSFORMED, CardLibrary.getCardNameFromMetricID(data[0])));

@@ -44,7 +44,7 @@ public class CampfireTransformEffect extends AbstractGameEffect {
             AbstractCard transCard = AbstractDungeon.getTransformedCard();
             AbstractDungeon.effectsQueue.add(new ShowCardAndObtainEffect(transCard, Settings.WIDTH / 2.0F, Settings.HEIGHT / 2.0F));
             AbstractDungeon.gridSelectScreen.selectedCards.clear();
-            CardCrawlGame.metricData.addCampfireChoiceData("TRANSFORM", card.getMetricID() + "YYOODDAA" + transCard.getMetricID());
+            CardCrawlGame.metricData.addCampfireChoiceData("YODA:TRANSFORM", card.getMetricID() + "YYOODDAA" + transCard.getMetricID());
         }
 
         if (this.duration < 1.0F && !this.openedScreen) {

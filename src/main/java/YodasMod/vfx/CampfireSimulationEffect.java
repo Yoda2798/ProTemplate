@@ -38,7 +38,7 @@ public class CampfireSimulationEffect extends AbstractGameEffect {
                 ++AbstractDungeon.player.getRelic(Holodeck.ID).counter;
                 CardCrawlGame.sound.play("ATTACK_DEFECT_BEAM");
                 CardCrawlGame.screenShake.shake(ShakeIntensity.HIGH, ShakeDur.SHORT, true);
-                CardCrawlGame.metricData.addCampfireChoiceData("SIMULATION", Integer.toString(AbstractDungeon.player.getRelic(Holodeck.ID).counter));
+                CardCrawlGame.metricData.addCampfireChoiceData("YODA:SIMULATION", Integer.toString(AbstractDungeon.player.getRelic(Holodeck.ID).counter));
             }
 
             AbstractDungeon.topLevelEffects.add(new BorderFlashEffect(new Color(0.8F, 0.6F, 0.1F, 0.0F)));
