@@ -126,6 +126,13 @@
       "Once per combat, right click to kill all minion enemies and enemies at or below #b10 HP."
     ]
   },
+  "${ModID}:JawWormTrophy": {
+    "NAME": "Jaw Worm Trophy",
+    "FLAVOR": "Earned by defeating the hardest enemy in the game with less than 40 HP loss.",
+    "DESCRIPTIONS": [
+      "Enemies in Boss combats have #b%.0f%% less HP."
+    ]
+  },
   "${ModID}:MiniatureBlackHole": {
     "NAME": "Miniature Black Hole",
     "FLAVOR": "Even denser than <insert person you dislike>!",
