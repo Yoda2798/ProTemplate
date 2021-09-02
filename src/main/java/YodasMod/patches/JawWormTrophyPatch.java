@@ -23,12 +23,6 @@ public class JawWormTrophyPatch {
                 && (AbstractDungeon.getCurrRoom() instanceof MonsterRoomBoss
                         || (__instance instanceof AbstractMonster && ((AbstractMonster)__instance).type == AbstractMonster.EnemyType.BOSS))) {
             scale[0] += JawWormTrophy.MODIFIER_AMT;
-            /*for (AbstractMonster m: AbstractDungeon.getMonsters().monsters) {
-                if (m.type == AbstractMonster.EnemyType.BOSS) {
-                    scale[0] += JawWormTrophy.MODIFIER_AMT;
-                    return;
-                }
-            }*/
         }
     }
 
