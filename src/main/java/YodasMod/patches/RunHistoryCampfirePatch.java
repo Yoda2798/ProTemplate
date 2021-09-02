@@ -4,7 +4,6 @@ import basemod.ReflectionHacks;
 import com.evacipated.cardcrawl.modthespire.lib.*;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.helpers.CardLibrary;
-import com.megacrit.cardcrawl.localization.UIStrings;
 import com.megacrit.cardcrawl.screens.runHistory.RunPathElement;
 import com.megacrit.cardcrawl.screens.stats.CampfireChoice;
 import javassist.CtBehavior;
