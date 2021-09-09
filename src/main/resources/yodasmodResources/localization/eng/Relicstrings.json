@@ -34,6 +34,13 @@
       "Once per turn, after playing #b3 #ySkills, apply #b1 #yWeak to ALL enemies."
     ]
   },
+  "${ModID}:CardboardBox": {
+    "NAME": "Cardboard Box",
+    "FLAVOR": "Big Fish, Little Fish, Cardboard Box!",
+    "DESCRIPTIONS": [
+      "Upon pickup, obtain #b2 random relics (Common and Uncommon)."
+    ]
+  },
   "${ModID}:CleanEnergy": {
     "NAME": "Clean Energy",
     "FLAVOR": "Channels the combined energy of the four characters, but requires giving up your uniqueness to use.",
