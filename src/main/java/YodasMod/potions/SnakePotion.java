@@ -1,6 +1,5 @@
 package YodasMod.potions;
 
-import YodasMod.powers.EnergyPower;
 import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
