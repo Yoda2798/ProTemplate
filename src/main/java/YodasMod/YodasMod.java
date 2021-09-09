@@ -108,6 +108,7 @@ public class YodasMod implements
         BaseMod.addPotion(BluePotion.class, BluePotion.liquidColor, BluePotion.hybridColor, BluePotion.spotsColor, BluePotion.POTION_ID);
         BaseMod.addPotion(BottledApotheosis.class, BottledApotheosis.liquidColor, BottledApotheosis.hybridColor, BottledApotheosis.spotsColor, BottledApotheosis.POTION_ID);
         BaseMod.addPotion(BottledHand.class, BottledHand.liquidColor, BottledHand.hybridColor, BottledHand.spotsColor, BottledHand.POTION_ID);
+        BaseMod.addPotion(CleansingPotion.class, CleansingPotion.liquidColor, CleansingPotion.hybridColor, CleansingPotion.spotsColor, CleansingPotion.POTION_ID);
         BaseMod.addPotion(EssenceOfFrost.class, EssenceOfFrost.liquidColor, EssenceOfFrost.hybridColor, EssenceOfFrost.spotsColor, EssenceOfFrost.POTION_ID, EssenceOfFrost.playerClass);
         BaseMod.addPotion(EssenceOfLightning.class, EssenceOfLightning.liquidColor, EssenceOfLightning.hybridColor, EssenceOfLightning.spotsColor, EssenceOfLightning.POTION_ID, EssenceOfLightning.playerClass);
         BaseMod.addPotion(FelfirePotion.class, FelfirePotion.liquidColor, FelfirePotion.hybridColor, FelfirePotion.spotsColor, FelfirePotion.POTION_ID);

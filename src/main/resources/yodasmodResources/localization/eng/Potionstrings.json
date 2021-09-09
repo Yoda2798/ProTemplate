@@ -19,6 +19,10 @@
     "NAME": "Bottled Hand",
     "DESCRIPTIONS": ["Apply #b", " #yBlock #yReturn (Whenever you attack this enemy, gain #b", " #yBlock)."]
   },
+  "${ModID}:CleansingPotion": {
+    "NAME": "Cleansing Potion",
+    "DESCRIPTIONS": ["Remove all of your debuffs."]
+  },
   "${ModID}:EssenceOfFrost": {
     "NAME": "Essence of Frost",
     "DESCRIPTIONS": ["Channel #b", " #yFrost orbs."]
