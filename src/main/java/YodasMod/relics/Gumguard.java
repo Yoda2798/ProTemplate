@@ -13,7 +13,7 @@ public class Gumguard extends AbstractEasyRelic {
     public static final String ID = makeID("Gumguard");
 
     public Gumguard() {
-        super(ID, RelicTier.UNCOMMON, LandingSound.FLAT);
+        super(ID, RelicTier.SHOP, LandingSound.FLAT);
     }
 
     public void atBattleStart() {
