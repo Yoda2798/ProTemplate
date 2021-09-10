@@ -12,7 +12,7 @@ public class Propeller extends AbstractEasyRelic {
     private static final int BLOCK = 22;
 
     public Propeller() {
-        super(ID, RelicTier.UNCOMMON, LandingSound.HEAVY);
+        super(ID, RelicTier.RARE, LandingSound.HEAVY);
     }
 
     public void atBattleStart() {
