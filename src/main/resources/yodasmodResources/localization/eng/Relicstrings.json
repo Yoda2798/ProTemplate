@@ -6,6 +6,13 @@
       "Has no effect."
     ]
   },
+  "${ModID}:3DPrinter": {
+    "NAME": "3D Printer",
+    "FLAVOR": "Thankfully, isn't self-replicating yet...",
+    "DESCRIPTIONS": [
+      "Upon pickup, obtain a new additional copy of the next relic viewed (cannot be Boss rarity). WARNING: Duplicated relics may not work as expected."
+    ]
+  },
   "${ModID}:AchillesHeel": {
     "NAME": "Achilles' Heel",
     "FLAVOR": "The secret behind Achilles' great feets!",
